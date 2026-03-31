@@ -26,7 +26,7 @@ This project demonstrates how small UI details like motion and feedback can sign
 
 ## 📸 Demo
 
-👉 Live Demo:
+👉 Live Demo: https://johnyisbackk.github.io/js-scroll-reveal-ui/
 
 ---
 
