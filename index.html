@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Scroll Reveal UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Progress bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Background glow -->
+    <div class="page-glow page-glow-1"></div>
+    <div class="page-glow page-glow-2"></div>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-container">
+        <a href="#" class="logo">JohnY UI</a>
+
+        <nav class="nav">
+          <a href="#features">Features</a>
+          <a href="#showcase">Showcase</a>
+          <a href="#stats">Stats</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="btn btn-outline">Start Project</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero section reveal">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <span class="eyebrow">Smooth motion. Premium UI.</span>
+            <h1>Modern scroll animations with a clean progress indicator.</h1>
+            <p class="hero-text">
+              A dark landing page demo focused on elegant section reveals,
+              premium spacing, and a smooth top progress bar effect.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#showcase" class="btn btn-primary">Explore Demo</a>
+              <a href="#features" class="btn btn-secondary">View Features</a>
+            </div>
+
+            <div class="hero-meta">
+              <div class="meta-card">
+                <span class="meta-number">01</span>
+                <span class="meta-label">Scroll Progress UI</span>
+              </div>
+              <div class="meta-card">
+                <span class="meta-number">02</span>
+                <span class="meta-label">Reveal Animations</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="dashboard-card dashboard-main">
+              <div class="dashboard-top">
+                <span class="dot dot-1"></span>
+                <span class="dot dot-2"></span>
+                <span class="dot dot-3"></span>
+              </div>
+
+              <div class="dashboard-body">
+                <div class="dashboard-line line-lg"></div>
+                <div class="dashboard-line line-md"></div>
+
+                <div class="dashboard-stats">
+                  <div class="mini-box">
+                    <span>Engagement</span>
+                    <strong>+42%</strong>
+                  </div>
+                  <div class="mini-box">
+                    <span>Scroll Depth</span>
+                    <strong>89%</strong>
+                  </div>
+                </div>
+
+                <div class="chart-box">
+                  <div class="chart-line"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="floating-card floating-card-1">
+              <span>Elegant Motion</span>
+            </div>
+
+            <div class="floating-card floating-card-2">
+              <span>Dark UI System</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section id="features" class="section reveal">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-tag">Features</span>
+            <h2>Built for clean presentation and smooth interaction.</h2>
+            <p>
+              This concept combines modern layout structure, reusable UI cards,
+              scroll reveal sections, and a progress indicator for premium user
+              experience.
+            </p>
+          </div>
+
+          <div class="features-grid">
+            <article class="feature-card reveal">
+              <div class="feature-icon">01</div>
+              <h3>Smooth Progress Bar</h3>
+              <p>
+                A top page indicator that fills as the user scrolls through the
+                landing page.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-icon">02</div>
+              <h3>Reveal on Scroll</h3>
+              <p>
+                Sections and cards animate into view for a cleaner and more
+                dynamic feel.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-icon">03</div>
+              <h3>Reusable Dark Theme</h3>
+              <p>
+                Color variables in <code>:root</code> make it easy to change the
+                whole visual style fast.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Showcase -->
+      <section id="showcase" class="section reveal">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-tag">Showcase</span>
+            <h2>Minimal cards. Strong contrast. Premium spacing.</h2>
+            <p>
+              A showcase block to display sections, templates, landing pages, or
+              UI components inside a polished layout.
+            </p>
+          </div>
+
+          <div class="showcase-grid">
+            <article class="showcase-card reveal">
+              <span class="card-label">Landing Page</span>
+              <h3>Cinematic Hero Section</h3>
+              <p>
+                Large headings, soft gradients, video-ready layout, and smooth
+                spacing for premium presentation.
+              </p>
+            </article>
+
+            <article class="showcase-card reveal">
+              <span class="card-label">Component</span>
+              <h3>Animated Info Cards</h3>
+              <p>
+                Cards reveal naturally while maintaining a clean and
+                professional visual hierarchy.
+              </p>
+            </article>
+
+            <article class="showcase-card reveal">
+              <span class="card-label">Interaction</span>
+              <h3>Scroll-based Experience</h3>
+              <p>
+                Subtle movement makes the interface feel more alive without
+                becoming chaotic.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats -->
+      <section id="stats" class="section reveal">
+        <div class="container">
+          <div class="stats-grid">
+            <div class="stat-card reveal">
+              <span class="stat-number">92%</span>
+              <span class="stat-text">Visual consistency across sections</span>
+            </div>
+
+            <div class="stat-card reveal">
+              <span class="stat-number">6+</span>
+              <span class="stat-text">Reusable layout blocks</span>
+            </div>
+
+            <div class="stat-card reveal">
+              <span class="stat-number">100%</span>
+              <span class="stat-text">Customizable color variables</span>
+            </div>
+
+            <div class="stat-card reveal">
+              <span class="stat-number">JS</span>
+              <span class="stat-text">Scroll progress + reveal logic</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact / CTA -->
+      <section id="contact" class="section reveal">
+        <div class="container">
+          <div class="cta-box reveal">
+            <span class="section-tag">Final Section</span>
+            <h2>Ready to build more premium JavaScript UI projects?</h2>
+            <p>
+              This project is perfect for practicing scroll progress logic,
+              Intersection Observer, layout polish, and portfolio-ready styling.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#" class="btn btn-primary">View Source</a>
+              <a href="#" class="btn btn-secondary">Live Preview</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
